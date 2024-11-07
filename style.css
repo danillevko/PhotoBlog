@@ -1,0 +1,131 @@
+:root {
+    --active-color: #03A9F4;
+    --background-color: #E5E5E5;
+    --category-color: #B4AD9E;
+    --title-color: #626262;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 906px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+
+.header {
+    outline: 1px solid darkgoldenrod;
+    margin-top: 71px;
+    margin-bottom: 92px;
+    
+}
+
+.header-menu {
+    outline: 1px solid darkgreen;
+    list-style: none;
+    display: flex;
+    gap: 99px;
+    margin: 0 auto;
+    width: 555px;
+}
+
+.menu-item {
+    outline: 1px solid darkblue;
+}
+
+.header-link {
+    color: var(--title-color);
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px;
+    text-decoration: none;
+    outline: 1px solid darkmagenta;
+}
+
+.active {
+    outline: 1px solid darkslategray;
+}
+
+body {
+    background-color: var(--background-color);
+    /* font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px; */
+    outline: 1px solid darkturquoise;
+}
+
+.active {
+    color: var(--active-color);
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px;
+    outline: 1px solid darkred;
+}
+
+.category {
+    color: var(--category-color);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    outline: 1px solid black;
+    margin-bottom: 32px;
+}
+
+.btn-load{
+    color: var(--title-color);
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 30px;
+    outline: 1px solid brown;
+    margin-top: 90px;
+    margin-bottom: 66px;
+}
+
+.card-item{
+    width: 420px;
+    outline: 1px solid gray;
+}
+
+.card-image{
+    outline: 1px solid purple;
+    margin-bottom: 62px;
+}
+
+.card-list{
+    list-style: none;
+    outline: 1px solid darkviolet;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.title{
+    color: var(--title-color);
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 30px;
+    outline: 1px solid brown;
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+
+.btn-vraper{
+    text-align: center;
+}
+
+.title-p{
+    color: var(--title-color);
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 30px;
+    outline: 1px solid rgb(54, 15, 15);
+    margin-bottom: 130px;
+}
+
+
