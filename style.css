@@ -75,6 +75,7 @@ body {
     font-style: normal;
     outline: 1px solid black;
     margin-bottom: 32px;
+    font-size: 14px;
 }
 
 .btn-load{
@@ -85,6 +86,8 @@ body {
     outline: 1px solid brown;
     margin-top: 90px;
     margin-bottom: 66px;
+    font-size: 14px;
+    padding: 20px 50px;
 }
 
 .card-item{
@@ -126,6 +129,7 @@ body {
     font-size: 30px;
     outline: 1px solid rgb(54, 15, 15);
     margin-bottom: 130px;
+    font-size: 14px;
 }
 
 
