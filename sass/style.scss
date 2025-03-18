@@ -1,5 +1,9 @@
+@import './utiles/variables';
+@import './components/header';
+@import './components/main';
+
 .btn-load{
-    color: var(--title-color);
+    color: $title-color;
     font-family: "Playfair Display", serif;
     font-weight: 400px;
     font-size: 30px;
@@ -8,4 +12,23 @@
     margin-bottom: 66px;
     font-size: 14px;
     padding: 20px 50px;
+}
+
+.container {
+    width: 906px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+body {
+    background-color: $background-color;
+    /* font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px; */
+    outline: 1px solid darkturquoise;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

@@ -1,0 +1,42 @@
+@import '../utiles/variables';
+
+.header {
+    outline: 1px solid darkgoldenrod;
+    margin-top: 71px;
+    margin-bottom: 92px;
+    
+}
+
+.header-menu {
+    outline: 1px solid darkgreen;
+    list-style: none;
+    display: flex;
+    gap: 99px;
+    margin: 0 auto;
+    width: 555px;
+}
+
+.menu-item {
+    outline: 1px solid darkblue;
+}
+
+.header-link {
+    color: $title-color;
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px;
+    text-decoration: none;
+    outline: 1px solid darkmagenta;
+}
+
+.active {
+    outline: 1px solid darkslategray;
+}
+
+.active {
+    color: $active-color;
+    font-family: "Playfair Display", serif;
+    font-weight: 400px;
+    font-size: 14px;
+    outline: 1px solid darkred;
+}
