@@ -1,3 +1,9 @@
+.header-link {
+  font-weight: 400px;
+  line-height: 100%;
+  font-family: "Playfair Display", serif;
+}
+
 .header {
   outline: 1px solid darkgoldenrod;
   margin-top: 71px;
@@ -21,8 +27,6 @@
 
 .header-link {
   color: #433e3e;
-  font-family: "Playfair Display", serif;
-  font-weight: 400px;
   font-size: 14px;
   text-decoration: none;
   outline: 1px solid darkmagenta;
@@ -34,8 +38,11 @@
 
 .active {
   color: #03A9F4;
-  font-family: "Playfair Display", serif;
   font-weight: 400px;
+  line-height: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: red;
   font-size: 14px;
   outline: 1px solid darkred;
 }

@@ -1,4 +1,6 @@
 @import '../utiles/variables';
+@import '../utiles/placehoders';
+@import '../utiles/mixin';
 
 .header {
     outline: 1px solid darkgoldenrod;
@@ -22,8 +24,7 @@
 
 .header-link {
     color: $title-color;
-    font-family: "Playfair Display", serif;
-    font-weight: 400px;
+    @extend %text;
     font-size: 14px;
     text-decoration: none;
     outline: 1px solid darkmagenta;
@@ -35,8 +36,7 @@
 
 .active {
     color: $active-color;
-    font-family: "Playfair Display", serif;
-    font-weight: 400px;
+    @include text1($font-size: 14px);
     font-size: 14px;
     outline: 1px solid darkred;
 }

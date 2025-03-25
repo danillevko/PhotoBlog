@@ -1,0 +1,7 @@
+@mixin text1($font-size){
+    font-weight: 400px;
+    line-height: 100%;
+    font-family: "Playfair Display", serif;
+    font-size: $font-size;
+    color: red;
+}
