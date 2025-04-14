@@ -60,8 +60,12 @@
 }
 
 .card-item {
-  width: 420px;
+  max-width: 420px;
   outline: 1px solid gray;
+}
+
+.picture {
+  max-width: 420px;
 }
 
 .card-image {
